@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+header{
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.headerTitle{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.headerDescription{
+	padding-left: 20%;
+	padding-right: 20%;
+	font-size: 22px;
+}
+
+.googleFormLink{
+	margin-top: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	padding-top: 1%;
+	padding-bottom: 1%;	
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.profileSection{
+	padding-top: 5%;
+	padding-bottom: 5%;
+
+	margin-left: 5%;
+	margin-right: 5%;
+
+	border-bottom-style: solid;
+	border-bottom-color: #D6D6D6;
+	border-bottom-width: 1px;
+}
+
+.profileImg{
+	height: 250px;
+	width: 250px;
+	border-radius: 125px;
+	float: left;
+}
+
+.userName, .school, .bio, .tags{
+	font-weight: 300;
+	margin-left: 25%;
+	margin-right: 10%;
+}
+
+.userName{
+	font-size: 32px;
+}
+
+.school{
+	font-size: 24px;
+}
+
+.bio{
+	font-size: 20px;
+	font-weight: 400;
+	color: #A6A6A6;
+}
+
+.tags{
+	font-size: 22px;
+	font-weight: 700;
+}
+
+.categoriesDiv{
+	margin-left: 5%;
+	margin-top: 10%;
+}
+
+.categoriesUl{
+	margin-bottom: 10%;
+}
+
+.categoriesLi{
+	text-decoration: none;
+	list-style-type: none;
+	float: left;
+	padding-right: 5%;
+}
+
+.profiles{
+	padding-top: 5%; 
+}
+
+.menuLink{
+	text-decoration: none;
+	color: #000;
+}
+
+footer{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
