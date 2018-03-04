@@ -5,30 +5,35 @@ body{
 	font-family: 'Quicksand', sans-serif;
 }
 
+
+@media (max-width: 800px) {
+
+
 header{
-	margin-top: 15%;
+	margin-top: 30%;
 }
 
 .headerTitle{
-	padding-left: 20%;
-	padding-right: 20%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .headerDescription{
-	padding-left: 20%;
-	padding-right: 20%;
-	margin-bottom: 5%;
-	font-size: 22px;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-bottom: 20%;
+	font-size: 18px;
+	text-align: justify;
 }
 
 .googleFormLink{
 	margin-top: 15%;
-	margin-left: 3%;
+	margin-left: 5%;
 	margin-right: 20%;
 	padding-left: 2.5%;
 	padding-right: 2.5%;
-	padding-top: 1%;
-	padding-bottom: 1%;	
+	padding-top: 2%;
+	padding-bottom: 2%;	
 	background-color: #fff;
 	color: #000;
 	text-decoration: none;
@@ -40,12 +45,12 @@ header{
 
 .googleFormLink:hover{
 	margin-top: 15%;
-	margin-left: 3%;
+	margin-left: 5%;
 	margin-right: 20%;
 	padding-left: 2.5%;
 	padding-right: 2.5%;
-	padding-top: 1%;
-	padding-bottom: 1%;	
+	padding-top: 2%;
+	padding-bottom: 2%;	
 	background-color: #000;
 	color: #fff;
 	text-decoration: none;
@@ -72,8 +77,6 @@ header{
 .profileSection{
 	padding-top: 5%;
 	padding-bottom: 5%;
-
-	margin-left: 5%;
 	margin-right: 5%;
 
 	border-bottom-style: solid;
@@ -82,17 +85,18 @@ header{
 }
 
 .profileImg{
-	height: 250px;
-	width: 250px;
-	border-radius: 125px;
-	float: left;
-	margin-top: 2%;
+	height: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	border-radius: 50%;
 }
 
 .userName, .school, .bio, .tags{
 	font-weight: 300;
-	margin-left: 25%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: justify;
 }
 
 .bio{
@@ -109,9 +113,10 @@ header{
 }
 
 .bio{
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 400;
 	color: #A6A6A6;
+	margin-bottom: 10%;
 }
 
 .tags{
@@ -147,4 +152,8 @@ header{
 footer{
 	margin-top: 5%;
 	margin-bottom: 5%;
+}
+
+
+
 }
